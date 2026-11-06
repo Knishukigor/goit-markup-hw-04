@@ -17,6 +17,7 @@ color: #2e2f42;
     border-radius: 0 0 4px 4px;
  background-color: #fff;
  width: 264px;
+ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .h3-team {
@@ -52,3 +53,37 @@ color: #434455;
 .block-team{
      padding: 32px 16px;
 }
+
+.svg-team {
+    padding-top: 8px;
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 24px;
+}
+
+.a-svg-team{
+    position: relative;
+    display: block;
+    border-radius: 40px;
+width: 40px;
+height: 40px;
+background-color: #4d5ae5;
+transition: background-color 300ms ease-in-out;
+}
+
+.svg-team-svg {
+position: absolute;
+top: 12px;
+left: 12px;
+color: #fff;
+transition: color 300ms ease-in-out;
+}
+
+.a-svg-team:hover,
+.svg-team-svg:hover{
+    background-color: #404bbf;
+    color: #f4f4fd;
+}
+

@@ -28,3 +28,21 @@ color: #434455;
 .li-features {
     width: 264px;
 }
+.div-features {
+margin-bottom: 8px;
+width: 264px;
+height: 112px;
+background-color: #f4f4fd;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+}
+
+.svg-feat {
+      position: relative;
+    top: 24px;
+    bottom: 24px;
+    right: 100px;
+    left: 100px;
+}
