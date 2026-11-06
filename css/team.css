@@ -1,0 +1,54 @@
+.section-team {
+    background-color: #f4f4fd;
+     padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.li-team{
+    border-radius: 0 0 4px 4px;
+ background-color: #fff;
+ width: 264px;
+}
+
+.h3-team {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin: 8px;
+}
+
+.p-team {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+
+.team-div {
+    max-width: 1158px;
+    margin: 0px auto;
+}
+
+.ul-team {
+    display: flex;
+    gap: 24px;
+    padding-top: 72px;
+}
+
+.block-team{
+     padding: 32px 16px;
+}
