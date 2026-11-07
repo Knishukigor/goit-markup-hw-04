@@ -36,7 +36,6 @@ color: #434455;
 }
 
 .li-portfolio {
-    position: relative;
     overflow: hidden;
 
     
@@ -84,6 +83,6 @@ color: #f4f4fd;
     transform: translateY(0);
 }
 
-.div-img-overlay {
-    position: relative;
+.image-wrapper {
+position: relative;
 }
