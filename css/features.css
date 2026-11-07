@@ -40,9 +40,5 @@ height: 112px;
 }
 
 .svg-feat {
-      position: relative;
-    top: 24px;
-    bottom: 24px;
-    right: 100px;
-    left: 100px;
+margin: 24px 100px;
 }

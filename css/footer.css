@@ -49,3 +49,36 @@ color: #fff;
 .logo-footer-div{
      margin-right: 120px;
 }
+
+.footer-svg{
+     padding-top: 16px;
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+}
+
+.svg-footer-svg{
+    position: absolute;
+top: 12px;
+left: 12px;
+color: #f4f4fd;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.a-footer-svg{
+position: relative;
+    display: block;
+    border-radius: 40px;
+width: 40px;
+height: 40px;
+background-color: #4d5ae5;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.a-footer-svg:hover,
+.a-footer-svg:focus{
+    background-color: #31d0aa;
+}

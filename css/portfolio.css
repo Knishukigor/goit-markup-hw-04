@@ -83,3 +83,7 @@ color: #f4f4fd;
 .li-portfolio:hover .div-overlay {
     transform: translateY(0);
 }
+
+.div-img-overlay {
+    position: relative;
+}
